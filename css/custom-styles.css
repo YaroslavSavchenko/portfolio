@@ -1,0 +1,70 @@
+.system_bg_color {
+    background-color: #EAEAEA;
+}
+
+.container_style {
+    border: 1px solid #D1D1D1;
+    border-top: none;
+    max-width: 75%;
+}
+
+
+.bg_style_header {
+    background-color: #7C7C7C;
+    border: 1px solid #7C7C7C;
+}
+
+
+.my_logo {
+    position: relative;
+    top: -11%;
+    left: 10%;
+    border: none;
+
+}
+
+.header_underline {
+    height: 0px;
+    border: 1px solid rgba(102, 102, 102, 0.4);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*.ml_custom {
+    margin-left: 9pt;
+
+}*/
+
+.text_format {
+    font-size: 0.75rem;
+    
+}
+
+.grey_color {
+    color: #666666;
+}
+
+.text_align_justify {
+    text-align: justify;
+}
+
+.fs_proj_header{
+    font-size: 2.5rem;
+}
+
+.u_color{
+    color: #666666;
+    text-shadow: 0px 0px 0.6px #888888;
+}
+
+.u_color:hover{
+    color: #666666;
+} 
+
+.email_color{
+    color: #3E71C7;
+}
+
+.fs_word{
+    font-size: 1rem;
+}
