@@ -5,7 +5,7 @@
 .container_style {
     border: 1px solid #D1D1D1;
     border-top: none;
-    max-width: 75%;
+    /*max-width: 75%;*/
 }
 
 
@@ -30,14 +30,10 @@
     margin: 0 auto;
 }
 
-/*.ml_custom {
-    margin-left: 9pt;
-
-}*/
 
 .text_format {
-   /* font-size: 0.75rem;*/
-    font-size: 17px;
+    font-size: 1rem;
+  /*  font-size: 17px;*/
     
 }
 
@@ -50,12 +46,12 @@
 }
 
 .fs_proj_header{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 .u_color{
     color: #666666;
-    text-shadow: 0px 0px 0.6px #888888;
+    text-shadow: 0.5px 0.5px 0.5px #888888;
 }
 
 .u_color:hover{
@@ -67,5 +63,40 @@
 }
 
 .fs_word{
-    font-size: 20px;
+    font-size: 21px;
+    font-size: 1.4rem;
+}
+
+.ml_90{
+    margin-left: 90%;
+}
+
+/***********************************************************************/
+
+.adaptive_max_width {
+  max-width: 90%; /* По умолчанию */
+}
+
+@media (min-width: 576px) {
+  .adaptive_max_width {
+    max-width: 90%; /* Для экранов шириной от 576px */
+  }
+}
+
+@media (min-width: 768px) {
+  .adaptive_max_width{
+    max-width: 75%; /* Для экранов шириной от 768px */
+  }
+}
+
+@media (min-width: 992px) {
+  .adaptive_max_width {
+    max-width: 75%; /* Для экранов шириной от 992px */
+  }
+}
+
+@media (min-width: 1200px) {
+  .adaptive_max_width {
+    max-width: 55%; /* Для экранов шириной от 1200px */
+  }
 }
