@@ -27,7 +27,7 @@
     height: 0px;
     border: 1px solid rgba(102, 102, 102, 0.4);
     max-width: 100%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 
@@ -69,6 +69,10 @@
 
 .ml_90{
     margin-left: 90%;
+}
+
+.ml_20{
+    margin-left: 6%;
 }
 
 /***********************************************************************/
