@@ -5,13 +5,15 @@
 .container_style {
     border: 1px solid #D1D1D1;
     border-top: none;
-    /*max-width: 75%;*/
+    /*background-image: url(../img/bg.jpg);
+    background-size: contain;*/
 }
 
 
 .bg_style_header {
     background-color: #7C7C7C;
     border: 1px solid #7C7C7C;
+    background: linear-gradient(180deg, #707070, #7C7C7C, #888888);
 }
 
 
@@ -33,8 +35,8 @@
 
 .text_format {
     font-size: 1rem;
-  /*font-size: 17px;*/
-    
+    /*font-size: 17px;*/
+
 }
 
 .grey_color {
@@ -45,62 +47,67 @@
     text-align: justify;
 }
 
-.fs_proj_header{
+.fs_proj_header {
     font-size: 2.8rem;
 }
 
-.u_color{
+.u_color {
     color: #666666;
     text-shadow: 0.5px 0.5px 0.5px #888888;
 }
 
-.u_color:hover{
+.u_color:hover {
     color: #666666;
-} 
+}
 
-.email_color{
+.email_color {
     color: #3E71C7;
 }
 
-.fs_word{
+.fs_word {
     font-size: 21px;
     font-size: 1.4rem;
 }
 
-.ml_90{
+.ml_90 {
     margin-left: 90%;
 }
 
-.ml_20{
+.ml_20 {
     margin-left: 6%;
 }
 
 /***********************************************************************/
 
 .adaptive_max_width {
-  max-width: 90%; /* По умолчанию */
+    max-width: 90%;
+    /* По умолчанию */
 }
 
 @media (min-width: 576px) {
-  .adaptive_max_width {
-    max-width: 90%; /* Для экранов шириной от 576px */
-  }
+    .adaptive_max_width {
+        max-width: 90%;
+        /* Для экранов шириной от 576px */
+    }
 }
 
 @media (min-width: 768px) {
-  .adaptive_max_width{
-    max-width: 75%; /* Для экранов шириной от 768px */
-  }
+    .adaptive_max_width {
+        max-width: 75%;
+        /* Для экранов шириной от 768px */
+    }
 }
 
 @media (min-width: 992px) {
-  .adaptive_max_width {
-    max-width: 75%; /* Для экранов шириной от 992px */
-  }
+    .adaptive_max_width {
+        max-width: 75%;
+        /* Для экранов шириной от 992px */
+    }
 }
 
 @media (min-width: 1200px) {
-  .adaptive_max_width {
-    max-width: 55%; /* Для экранов шириной от 1200px */
-  }
+    .adaptive_max_width {
+        max-width: 55%;
+        /* Для экранов шириной от 1200px */
+    }
 }
