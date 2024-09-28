@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <!-- Подключение Font Awesome перед Bootstrap.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>QA Yaroslav Savchenko</title>  
+    <title>QA Yaroslav Savchenko</title>
 </head>
 
 <body class="system_bg_color">
@@ -20,7 +20,14 @@
     <div class="container adaptive_max_width shadow mb-4 bg-white container_style">
         <div class="row">
 
-            <div class="col bg_style_header p-3 "> </div>
+            <div class="col bg_style_header pt-1 pr-4 pb-2 text-right">
+                <select id="lenDropdown" class="col-2 custom-select header_select p-0 pl-1 mr-0 mr-sm-1 mr-lg-2">
+                    <option value="index.html" selected>UA</option>
+                    <option value="ru.html">RU</option>
+                    <!--<option value="en" >EN</option>-->
+                </select>
+
+            </div>
 
         </div>
 
@@ -308,8 +315,8 @@
         </div>
 
     </main>
-    
-     <!--  --------------------------------5------------------------------->
+
+    <!--  --------------------------------5------------------------------->
 
     <main class="container adaptive_max_width container_style shadow mb-5  bg-white text_format">
 
@@ -370,7 +377,7 @@
         </div>
 
     </main>
-    
+
     <!--  --------------------------------4------------------------------->
 
     <main class="container adaptive_max_width container_style shadow mb-5  bg-white text_format">
@@ -414,7 +421,7 @@
                 <p class="fs_word mt-5 mb-1">Технології та інструменти</p>
 
                 <ul class="grey_color mb-1 pl-4">
-                    <li>Jira, TestRail, Postman, Swagger, Fiddler, MongoDB, Robo 3T,  JSON, ApowerMirror, Android Studio, TestFlight, TestFairy, Lunacy, Figma</li>
+                    <li>Jira, TestRail, Postman, Swagger, Fiddler, MongoDB, Robo 3T, JSON, ApowerMirror, Android Studio, TestFlight, TestFairy, Lunacy, Figma</li>
                 </ul>
 
             </div>
@@ -431,8 +438,8 @@
         </div>
 
     </main>
-    
-    
+
+
     <!--  --------------------------------3------------------------------->
 
     <main class="container adaptive_max_width container_style shadow mb-5  bg-white text_format">
@@ -490,8 +497,8 @@
         </div>
 
     </main>
-    
-        <!--  --------------------------------2------------------------------->
+
+    <!--  --------------------------------2------------------------------->
 
     <main class="container adaptive_max_width container_style shadow mb-5  bg-white text_format">
 
@@ -550,8 +557,8 @@
         </div>
 
     </main>
-    
-           <!--  --------------------------------1------------------------------->
+
+    <!--  --------------------------------1------------------------------->
 
     <main class="container adaptive_max_width container_style shadow mb-5  bg-white text_format">
 
@@ -608,11 +615,6 @@
 
     </main>
 
-    <!-- Модальное окно с ошибкой которое отображается при неудачном запросе-->
-
-    <div class="modal" id="errorModal" tabindex="-1" role="dialog"></div>
-    <!------------------------------------------------------------------------>
-
     <!-- Подключение jQuery и Popper.js перед Bootstrap.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"></script>
@@ -624,6 +626,5 @@
 
     <!-- Подключение кастомных скриптов -->
     <script src="js/custom-script.js"></script>
-    <!--<script src="js/requests.js"></script>-->
 
 </body></html>
