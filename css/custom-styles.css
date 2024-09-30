@@ -39,7 +39,7 @@
     font-size: 0.85rem;
     width: 70px;
     cursor: pointer;
-   
+
 }
 
 /*Стрелка вверх на дропдауне языков*/
@@ -48,7 +48,7 @@
     height: 25px;
     font-size: 0.85rem;
     width: 70px;
-   
+
 }
 
 /*клас для активации через js*/
@@ -57,7 +57,7 @@
     height: 25px;
     font-size: 0.85rem;
     width: 70px;
-   
+
 }
 
 
@@ -137,5 +137,24 @@
     .adaptive_max_width {
         max-width: 55%;
         /* Для экранов шириной от 1200px */
+    }
+}
+
+/*--------------------------------------------------------------------------*/
+
+.fs_mbile {
+    font-size: inherit;
+}
+
+@media (min-width:300px) {
+    .fs_mbile {
+        font-size: 15px;
+        /* Для экранов шириной от 300px */
+    }
+}
+
+@media(min-width:412px){
+    .fs_mbile {
+        font-size: inherit;
     }
 }
