@@ -146,10 +146,19 @@
     font-size: inherit;
 }
 
+.fs_mbile img{
+    margin-bottom: 4px;
+}
+
 @media (min-width:300px) {
     .fs_mbile {
         font-size: 15px;
         /* Для экранов шириной от 300px */
+    }
+    
+    .fs_mbile img{
+        width: 17px;
+        margin-bottom: 3px;
     }
 }
 
@@ -157,4 +166,16 @@
     .fs_mbile {
         font-size: inherit;
     }
+    
+    .fs_mbile img{
+        width: 20px;
+    }
+}
+
+
+@media(max-width:500px){
+    .dropdown_mbile {
+        width: 60px !important;
+    }
+    
 }
